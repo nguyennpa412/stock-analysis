@@ -1,10 +1,10 @@
 # Simple Stock Analysis
 
-### Objective: Predicting Vietnamese stocks prices using simple LSTM.
+### Objective: Predicting Vietnamese stock prices using simple LSTM.
 
 > This is my old project from July 2021. Just an assignment from my class back then. Although it's not really well implementated and arranged, hope you will find it helpful.
 
-## 1. Crawling Stocks Data
+## 1. Crawling Stock Data
 - Data sources:
     - [**Vietstock**](https://finance.vietstock.vn)
     - [**TVSI**](https://finance.tvsi.com.vn)
@@ -74,8 +74,8 @@
  ┃ ┗ 📜[tvsi_vnindex_01052019_13062021.csv](./modeling_data/vnindex/tvsi_vnindex_01052019_13062021.csv)\
  ┃ ┗ 📜[vietstock_vnindex_08062020_13062021.csv](./modeling_data/vnindex/vietstock_vnindex_08062020_13062021.csv)
 
-## 4. Stocks Prices Prediction using LSTM
-- Predict stocks prices for **VNINDEX**, **FPT**, **HVN**, **VIC** in **90 days** after **13rd June 2021** (***the green line***).
+## 4. Stock Prices Prediction using LSTM
+- Predict stock prices for **VNINDEX**, **FPT**, **HVN**, **VIC** in **90 days** after **13rd June 2021** (***the green line***).
 - Cross-apply models on **FPT** for models correlation experimentation.
 
 | [**VNINDEX**](./Modeling%20for%20VNINDEX.ipynb) | [**HVN**](./Modeling%20for%20HVN.ipynb) | [**VIC**](./Modeling%20for%20VIC.ipynb) |
