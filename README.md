@@ -12,7 +12,7 @@
 - Spiders dir: [`stock_crawler/stock_data/spiders`](./stock_crawler/stock_data/spiders/)
 - Usages:
 
-|   | Source | `cd stock_crawler` > run cmd |
+| Usage | Source | `cd stock_crawler` > run cmd |
 |---|---|---|
 | Crawling Stock Data | vietstock, tvsi | `scrapy crawl stock` |
 | Crawling Sector Data | vietstock | `scrapy crawl sector` |
@@ -22,7 +22,7 @@
 | Crawling Top3 & Bot3 % Change | tvsi | `scrapy crawl async_top3_bot3_sum_perchange` |
 | Crawling Select3 | tvsi | `scrapy crawl select3` |
 
-## 2. Crawled Data Structure
+## 2. Crawled Data
 📦[crawled_data](./crawled_data)\
  ┣ 📂[tvsi](./crawled_data/tvsi)\
  ┃ ┗ 📂[stock](./crawled_data/tvsi/stock)\
@@ -56,7 +56,7 @@
  ┃ ┃ ┣ 📜[upcom.csv](./crawled_data/vietstock/stock/upcom.csv)\
  ┃ ┃ ┗ 📜[vnindex.csv](./crawled_data/vietstock/stock/vnindex.csv)
  
- ## 3. Modeling Data Structure
+ ## 3. Data for Modeling
  📦[modeling_data](./modeling_data)\
  ┣ 📂[bot3](./modeling_data/bot3)\
  ┃ ┣ 📜[tvsi_KPF_01052019_13062021.csv](./modeling_data/bot3/tvsi_KPF_01052019_13062021.csv)\
@@ -75,7 +75,7 @@
  ┃ ┗ 📜[vietstock_vnindex_08062020_13062021.csv](./modeling_data/vnindex/vietstock_vnindex_08062020_13062021.csv)
 
 ## 4. Stock Prices Prediction using LSTM
-- Predict stock prices for **VNINDEX**, **FPT**, **HVN**, **VIC** in **90 days** after **13rd June 2021** (***the green line***).
+- Predict stock prices for **VNINDEX** (*stock market index of HoSE*), **FPT** (*Information Technology*), **HVN** (*Travel & Entertainment*), **VIC** (*Real Estate*) in **90 days** after **13rd June 2021** (***the green line***).
 - Cross-apply models on **FPT** for models correlation experimentation.
 
 | [**VNINDEX**](./Modeling%20for%20VNINDEX.ipynb) | [**HVN**](./Modeling%20for%20HVN.ipynb) | [**VIC**](./Modeling%20for%20VIC.ipynb) |
