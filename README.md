@@ -2,7 +2,7 @@
 
 ### Objective: Predicting Vietnamese stock prices using simple LSTM.
 
-> This is my old project from July 2021. Just an assignment from my class back then. Although it's not really well implementated and arranged, hope you will find it helpful.
+> This is my old project from June 2021. Just an assignment from my class back then. Although it's not really well implementated and arranged, hope you will find it helpful.
 
 ## 1. Crawling Stock Data
 - Data sources:
