@@ -78,23 +78,8 @@
 - Predict stocks prices for **VNINDEX**, **FPT**, **HVN**, **VIC** in **90 days** after **13rd June 2021** (***the green line***).
 - Cross-apply models on **FPT** for models correlation experimentation.
 
-<div class="foo">
-
 | [**VNINDEX**](./Modeling%20for%20VNINDEX.ipynb) | [**HVN**](./Modeling%20for%20HVN.ipynb) | [**VIC**](./Modeling%20for%20VIC.ipynb) |
-|---|---|---|
-| ![vnindex_predictions](./assets/vnindex_predictions.png) | ![hvn_predictions](./assets/hvn_predictions.png) | ![vic_predictions](./assets/vic_predictions.png) |
-
+|:---:|:---:|:---:|
+| <img src="./assets/vnindex_predictions.png" > | <img src="./assets/hvn_predictions.png" > | <img src="./assets/vic_predictions.png" > |
 | [**FPT**](./Modeling%20for%20FPT.ipynb) | [**Experiment: Cross-apply HVN model on FPT**](./Cross_apply_on_FPT.ipynb) | [**Experiment: Cross-apply VIC model on FPT**](./Cross_apply_on_FPT.ipynb) |
-|---|---|---|
-| ![fpt_predictions](./assets/fpt_predictions.png) | ![cross_apply_hvn_model_on_fpt](./assets/cross_apply_hvn_model_on_fpt.png) | ![cross_apply_vic_model_on_fpt](./assets/cross_apply_vic_model_on_fpt.png) |
-
-</div>
-
-<style>
-    .foo table td {
-        width: 30%
-    }
-    .foo table th {
-        width: 30%
-    }
-</style>
+| <img src="./assets/fpt_predictions.png" > | <img src="./assets/cross_apply_hvn_model_on_fpt.png" > | <img src="./assets/cross_apply_vic_model_on_fpt.png" > |
